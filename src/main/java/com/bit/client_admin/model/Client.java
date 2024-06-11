@@ -24,7 +24,7 @@ public class Client {
     private Integer numeroCliente;
     @Column(name = "número_documento")
     private Integer numeroDocumento;
-    private String apellido;
+    private String apellidos;
     private String nombres;
     @Column(name = "nombre_calle")
     private String nombreCalle;
