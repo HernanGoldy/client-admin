@@ -15,4 +15,9 @@ public class ClientDTO {
     private Integer numeroCliente;
     private String apellidos;
     private String nombres;
+    private String nombreCalle;
+    private Integer numeroCalle;
+    private String piso;
+    private String departamento;
+    private String nombreEdificio;
 }

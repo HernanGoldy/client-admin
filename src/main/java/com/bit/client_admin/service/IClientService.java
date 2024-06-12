@@ -1,5 +1,6 @@
 package com.bit.client_admin.service;
 
+import com.bit.client_admin.model.Client;
 import com.bit.client_admin.service.dto.AddressVerifyDTO;
 import com.bit.client_admin.service.dto.ClientDTO;
 
@@ -8,16 +9,13 @@ import java.util.List;
 public interface IClientService {
 
     // Find all clients
-    List<ClientDTO> findAll();
+    List<Client> findAll();
 
     // Find client by id
-    ClientDTO findById(Long id);
+    Client findById(Long id);
 
     // Create client
-    ClientDTO createClient(ClientDTO clientDTO);
-
-    // Update client
-    ClientDTO updateClient(ClientDTO clientDTO, Long id);
+    Client createClient(Client client);
 
     // Delete client
     String deleteClient(Long id);
