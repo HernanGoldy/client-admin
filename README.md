@@ -12,11 +12,11 @@ Este proyecto consta de 4 capas bien diferenciadas para una mejor organización 
 
 ### Tecnologías Utilizadas
 
-* [Spring Boot](https://spring.io/projects/spring-boot)
+* [Java 17](https://openjdk.org/projects/jdk/17/)
+* [Spring Boot 3.3.0](https://spring.io/projects/spring-boot)
     * [Spring Web](https://spring.io/guides/gs/rest-service/)
     * [Spring Data JPA](https://spring.io/guides/gs/accessing-data-jpa/)
     * [MySQL Driver](https://spring.io/guides/gs/accessing-data-mysql/)
     * [Lombok](https://www.baeldung.com/intro-to-project-lombok)
-    * [Model Mapper](https://modelmapper.org/)
-* [MySQL Workbench](https://www.mysql.com/products/workbench/)
+* [MySQL](https://www.mysql.com/products/workbench/)
 * [Postman](https://www.postman.com/)
