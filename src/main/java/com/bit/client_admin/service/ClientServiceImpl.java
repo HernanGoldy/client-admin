@@ -29,7 +29,7 @@ public class ClientServiceImpl implements IClientService {
         return clientRepository.findById(id).orElseThrow();
     }
 
-    // Create client
+    // Create and update client
     @Override
     @Transactional
     public Client createClient(Client client) {

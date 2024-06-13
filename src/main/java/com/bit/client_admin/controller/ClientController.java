@@ -31,13 +31,12 @@ public class ClientController {
         return new ResponseEntity<>(this.clientService.findById(id), HttpStatus.OK);
     }
 
-    // Create client
+    // Create and update client
     // http://localhost:8080/client/create
     @PostMapping("/create")
     public ResponseEntity<Client> createClient(@RequestBody Client client) {
         return new ResponseEntity<>(this.clientService.createClient(client), HttpStatus.CREATED);
     }
-
 
     // Delete client
     @DeleteMapping("/delete/{id}")

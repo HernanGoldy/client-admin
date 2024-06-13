@@ -2,7 +2,6 @@ package com.bit.client_admin.service;
 
 import com.bit.client_admin.model.Client;
 import com.bit.client_admin.service.dto.AddressVerifyDTO;
-import com.bit.client_admin.service.dto.ClientDTO;
 
 import java.util.List;
 
