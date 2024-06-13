@@ -13,7 +13,7 @@ public interface IClientService {
     // Find client by id
     Client findById(Long id);
 
-    // Create client
+    // Create adn update client
     Client createClient(Client client);
 
     // Delete client
